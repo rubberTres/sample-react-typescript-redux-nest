@@ -1,0 +1,23 @@
+.button {
+	padding: 10px 20px;
+	outline: none;
+	border: none;
+	text-align: center;
+	border-radius: 4px;
+	
+	&:hover {
+		cursor: pointer;
+	}
+
+	&--success {
+		background-color: greenyellow;
+	}
+
+	&--danger {
+		background-color: red;
+	}
+
+	&--primary {
+		background-color: gray;
+	}
+}
